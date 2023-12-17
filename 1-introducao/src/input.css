@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* componentes */
+@layer components{
+    .btn-blue{
+        @apply bg-blue-500 hover:bg-blue-700 
+        text-white font-bold py-1 px-2 rounded
+    }
+
+    .btn-blue:hover{
+        @apply bg-blue-500 hover:bg-blue-700 
+        text-white font-bold py-1 px-2 rounded
+    }
+}
