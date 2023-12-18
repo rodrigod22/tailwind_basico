@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="bg-black p-2 mx-auto text-white text-center font-bold my-5">
+        1 - Customização ( obs as alterações das propriedades no theme sobrescreve as classes nativas, ex: colocando colors: {black:'#000'} vai matar todas as cores do tailwind )
+    </div>
+
+    <h1 class="text-black text-2xl tablet:text-5xl tablet:text-red-600">texto</h1>
+    <h1 class="text-red-500 text-2xl tablet:text-xs tablet:text-blue-900">texto</h1>
+    <h1 class="text-xl text-blue-600 cel:text-orange-600">testando max-width</h1>
+
+    <div class="bg-new-blue my-3 text-white">New color</div>
+    <div class="bg-gray-900 my-3 text-white">Override color gray-900</div>
+    <div class="bg-orange-900 my-3 m-50 text-white">New spacing</div>
+</body>
+</html>
